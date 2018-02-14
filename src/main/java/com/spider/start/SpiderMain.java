@@ -19,7 +19,7 @@ public class SpiderMain {
             ExecutorService robotExecutor = spiderUtil.getRobotExecutor();
             spiderImpl.moveSpider(args);
             robotExecutor.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
-            SpiderUtil.getInstance().LOGGER.log(Level.INFO, "The number of steps walked by robot is " + spiderUtil.atomicInteger.get());
+            SpiderUtil.getInstance().LOGGER.log(Level.INFO, "The number of steps walked by Spider is " + spiderUtil.atomicInteger.get());
         } catch (InterruptedException e) {
             SpiderUtil.getInstance().LOGGER.log(Level.INFO, "INTERRUPT");
         }
