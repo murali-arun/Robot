@@ -26,7 +26,7 @@ public class SpiderImpl implements Spider {
     }
 
     public void message(int leg) {
-        SpiderUtil.getInstance().LOGGER.log(Level.INFO, "The Robot moved with leg " + leg);
+        SpiderUtil.getInstance().LOGGER.log(Level.INFO, "The Spider moved with leg " + leg);
     }
 
     public boolean checkDestinationReached(SpiderBean spiderBean) {
