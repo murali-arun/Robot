@@ -11,23 +11,23 @@ Dynamically can change the number of legs to increase the speed.
  
  
  Sample output:
-Feb 14, 2018 3:29:43 PM com.spider.impl.SpiderImpl message
-INFO: The Spider moved with leg 1
-Feb 14, 2018 3:29:44 PM com.spider.impl.SpiderImpl message
-INFO: The Spider moved with leg 2
-Feb 14, 2018 3:29:45 PM com.spider.impl.SpiderImpl message
-INFO: The Spider moved with leg 3
-Feb 14, 2018 3:29:45 PM com.spider.impl.SpiderImpl message
-INFO: The Spider moved with leg 1
-Feb 14, 2018 3:29:46 PM com.spider.impl.SpiderImpl message
-INFO: The Spider moved with leg 2
-Feb 14, 2018 3:29:47 PM com.spider.start.SpiderMain main
-INFO: The number of steps walked by spider is 5
+Feb 14, 2018 3:29:43 PM com.spider.impl.SpiderImpl message<br/>
+INFO: The Spider moved with leg 1<br/>
+Feb 14, 2018 3:29:44 PM com.spider.impl.SpiderImpl message<br/>
+INFO: The Spider moved with leg 2<br/>
+Feb 14, 2018 3:29:45 PM com.spider.impl.SpiderImpl message<br/>
+INFO: The Spider moved with leg 3<br/>
+Feb 14, 2018 3:29:45 PM com.spider.impl.SpiderImpl message<br/>
+INFO: The Spider moved with leg 1<br/>
+Feb 14, 2018 3:29:46 PM com.spider.impl.SpiderImpl message<br/>
+INFO: The Spider moved with leg 2<br/>
+Feb 14, 2018 3:29:47 PM com.spider.start.SpiderMain main<br/>
+INFO: The number of steps walked by spider is 5<br/>
  
  
  
  
  
- Known bugs:
- Able to change the legs only once from the config file.
+ Known bugs:<br/>
+ Able to change the legs only once from the config file.<br/>
 
