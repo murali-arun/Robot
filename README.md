@@ -1,13 +1,13 @@
-# Spider
-It can be used to make peddle robot to walk
-It is just small application created to learn Executor Framework and WatcherService.
-This application can be launched by :
+# Spider<br/>
+It can be used to make peddle robot to walk<br/>
+It is just small application created to learn Executor Framework and WatcherService.<br/>
+This application can be launched by :<br/>
 
               java -jar spider-0.0.1-SNAPSHOT.jar legs distance
       
-Each leg move in a different thread.
-They send trigger in a sequence. 
-Dynamically can change the number of legs to increase the speed.
+Each leg move in a different thread.<br/>
+They send trigger in a sequence. <br/>
+Dynamically can change the number of legs to increase the speed.<br/>
  
  
  Sample output:
